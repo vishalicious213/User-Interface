@@ -64,3 +64,72 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 90%;
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+nav a {
+	color: silver;
+	text-decoration: none;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.getStarted {
+	position: relative;
+}
+
+.getStarted p {
+	font-size: 90px;
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+}
+
+.getStarted img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 100%;
+/*	margin-bottom: 100px; */
+}
+
+.getStarted .startButton {
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 30px 5px 30px;
+}
+
+/* target the paragraphs, not the section */
+.mainTextTop p {
+	display: inline-block;
+	width: 49%;
+/*	text-align: justify;
+	padding-right: 20px; */
+}
+
+.mainTextTitle {
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+}
+
+/* target the paragraphs here, too */
+.mainTextBottom p {
+	display: inline-block;
+	width: 32%;
+/*	text-align: justify;
+	padding-right: 20px; */
+}
+
+footer {
+	text-align: center;
+}
